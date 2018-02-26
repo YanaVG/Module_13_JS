@@ -1,0 +1,32 @@
+body {
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+}
+
+form {
+  padding: 10px 20px;
+  box-shadow: 0 0 1px 1px;
+}
+
+.results {
+  margin-top: 40px;
+}
+.results ul{
+  margin-top: 100px;
+}
+.results li{
+    display: flex;
+    margin-bottom: 10px;
+  }
+.results li::before {
+      display: inline-block;
+      content: "\2014";
+      margin-right: 4px;
+ }
+
+.results .success {
+    color: #4caf50;
+  }
+.results .error {
+   color: #f44336;
+}
